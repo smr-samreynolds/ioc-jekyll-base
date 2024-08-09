@@ -1,0 +1,19 @@
+seo:
+  site_name:
+  title:
+  description:
+  keywords:
+  social_image:
+  author:
+  favicon_image:
+social:
+  instagram_username:
+  facebook_url:
+  linkedin_url:
+design:
+  dark_color: "" # add your colors here between the ''
+  medium_color: "" # add your colors here between the ''
+  light_color: "" # add your colors here between the ''
+  dark-text_color: "" # add your colors here between the ''
+  light-text_color: "" # add your colors here between the ''
+  featured-text_color: "" # add your colors here between the ''

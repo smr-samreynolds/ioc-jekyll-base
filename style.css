@@ -1,5 +1,67 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* ====== STYLES ====== */
+
+:root {
+  /* --dark: #c59486;
+    --medium: #dec2ba;
+    --light: #f1f0ef;
+    --dark-text: #231f20;
+    --light-text: #ffffff;
+    --featured-text: #c59486; */
+  --serif: "Cormorant Garamond", serif;
+  --heading: "Catamaran", sans-serif;
+  --cursive: "La Belle Aurore", cursive;
 }
+
+/* ===== UNIVERSAL RESET ===== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  position: relative;
+} /* /* We use this so the semi-transparent overlays stay on top of the correct bg-image banner */
+
+/* Override default gridlex styles */
+[class*="col"],
+[class*="col-"],
+[class*="col_"],
+[class~="col"] {
+  padding: 0;
+}
+[class*="grid"] {
+  margin: 0;
+}
+
+/* ===== COMMON STYLING ===== */
+/* Should include styling for
+body
+p
+headings
+lists
+links */
+
+/* ===== UTILITY STYLES ===== */
+/* These styles remove the default styles Add utility styles:
+  Container Height
+  Padding
+  Margin
+  Background image utility class (bg-image)  
+  Coloured backgrounds
+  Typography styles
+  Text size
+  Text align */
+
+/* ===== CUSTOM CLASSES ===== */
+
+/* ===== MEDIA QUERIES ===== */
